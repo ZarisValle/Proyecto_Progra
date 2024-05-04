@@ -258,12 +258,12 @@ cin.ignore();
         imprimirtablero();
         if (numturnos % 2 == 0)
         {
-            char jugada = posiblesjugadas();
-            ganadorband = verificarjugada(jugada, ficha_jugador);
+            char jugada = posiblesjugadas(); // muestra las casillas disponibles y nos muestra la jugada
+            ganadorband = verificarjugada(jugada, ficha_jugador); // valida la jugada si es valida y ve si hay un ganador
         }
         else
         {
-            ganadorband = movimientocomputadora(ficha_computadora);
+            ganadorband = movimientocomputadora(ficha_computadora); // Realiza el movimiento de la computadora seleccionando una casilla aleatoria válida y la coloca.
         }
         if (ganadorband == -1)
         { // Si la jugada no es válida, no incrementamos el número de turnos
