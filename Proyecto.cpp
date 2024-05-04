@@ -172,14 +172,18 @@ int main(){
     int v1;
     int v2;
     
-        
+cout<< "X---------------------------------------------------O"<<endl;
+cout<< "O              Bienvenidos al juego                 X"<<endl;
+cout<< "X                                                   O"<<endl;
+cout<< "O                                                   X"<<endl;
+cout<< "X                      TOTITO                       O"<<endl;
+cout<< "O                                 Por: Zara Valle   X"<<endl;
+cout<< "X---------------------------------------------------O"<<endl;
+cin.ignore();    
 
 
-  cout << "\t\t\t\t\t\t\t JUGUEMOS TOTITO"<<endl;
-      
-
-
- 
+  
+    
   cout <<"Elija el modo de juego"<<endl;
   cout << "1. Jugador Vs Jugador"<< endl;
   cout<< "2. Jugador Vs Computadora"<<endl;
